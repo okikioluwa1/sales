@@ -443,41 +443,6 @@ footer{
 .Footer__content-div4 p {
   margin: 0;
 }
-@media  (min-width:30rem) 
-{
-  .Section__slash-item img{
-    right: 20%;
-  }
-  .slash-item2 img {
-    right: 15%;
-  }
-  .Footer__content-div1{
-    padding: 0 5rem;
-  }
-  .Footer__content-div2{
-    padding: 0 7rem;
-  }
-  .Footer__content-div3{
-    padding: 0 4rem;
-  }
-}
-@media (min-width:45rem){
-  .Section__slash-items{
-    height: 20rem;
-    display: grid;
-    grid-template-columns: repeat(2, 22.5rem) ;
-    grid-template-rows: 2rem 18rem ;
-  }
-  .slash-item2{
-    margin-top: 0.5rem;
-  }
-  .Section__slash-items h4{
-    grid-column: 1 / span 2 ;
-  }
-  .Section__slash-background{
-    height: 20.5rem;
-  }
-}
 .Toggle__dropdown{
      height: 88vh;
      width: 60%;
